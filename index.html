@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memento — Project Portfolio</title>
+    <meta name="description" content="Memento project portfolio: overview, abstract, features, and team.">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="assets/memento-logo2.png" type="image/png">
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#overview" aria-label="Memento home">
+          <img class="brand-logo" src="assets/memento-logo.png" alt="Memento logo">
+          <span class="brand-text">Memento</span>
+        </a>
+        <button id="drawerToggle" class="icon-button" aria-label="Open navigation" aria-controls="siteDrawer" aria-expanded="false">
+          <span class="icon-bar" aria-hidden="true"></span>
+          <span class="icon-bar" aria-hidden="true"></span>
+          <span class="icon-bar" aria-hidden="true"></span>
+        </button>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="#overview">Overview</a>
+          <a href="#abstract">Abstract</a>
+          <a href="#features">Features</a>
+          <a href="#team">Team</a>
+        </nav>
+      </div>
+    </header>
+
+    <aside id="siteDrawer" class="drawer" aria-label="Drawer Navigation" aria-hidden="true">
+      <div class="drawer-header">
+        <span class="brand">Memento</span>
+        <button id="drawerClose" class="icon-button" aria-label="Close navigation">
+          <span class="close-cross" aria-hidden="true">×</span>
+        </button>
+      </div>
+      <nav class="drawer-nav">
+        <a class="drawer-link" href="#overview">Overview</a>
+        <a class="drawer-link" href="#abstract">Abstract</a>
+        <a class="drawer-link" href="#features">Features</a>
+        <a class="drawer-link" href="#team">Team</a>
+      </nav>
+    </aside>
+
+    <main id="main" class="site-main" tabindex="-1">
+      <section id="overview" class="section hero">
+        <div class="container">
+          <div class="hero-logo-wrap">
+            <img class="hero-logo" src="assets/memento-logo2.png" alt="Memento logo large">
+          </div>
+          <h1 class="hero-title">Memento</h1>
+          <p class="hero-subtitle">Never miss a moment, remember with Memento.</p>
+          <div class="cta-row">
+            <a href="#abstract" class="button ghost">About the Project</a>
+            <a href="#features" class="button primary">Explore Features</a>
+            <a href="#team" class="button ghost">Meet the Team</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="abstract" class="section">
+        <div class="container">
+          <h2>Abstract</h2>
+          <p>
+            This project focuses on developing an innovative support system, Memento,
+            aimed at assisting individuals with mild cognitive impairment (MCI) and early stages
+            of Alzheimer's disease. Recognizing the challenges these patients face in managing
+            daily activities and maintaining independence, our solution features a wearable
+            device that integrates with an AI-powered local server, a smart medication box, and
+            a mobile application. The wearable device captures audio and visual data to assist
+            with memory loss, Sending this data to the local server for storage and processing.
+            Memento prioritizes user privacy through this localized approach. The system also
+            includes intelligent support for routine activities, such as performing Islamic prayers,
+            using a fixed camera to monitor body positions during prayer and a pressure sensor
+            embedded in the prayer mat to detect the start of the prayer. The smart medication
+            box provides automated medication reminders and tracking. The mobile application
+            is designed for both the caregiver and the patient. Where the caregiver can monitor
+            and modify the patient's prayer status and medications. While the patient can
+            manually add custom events to be reminded about. After the data have been recorded,
+            patients interact directly with the wearable device using voice commands and receive
+            verbal responses through a headset or speaker. Ultimately, Memento seeks to provide
+            a practical and effective solution that enhances daily living for affected individuals.
+          </p>
+          <h2 lang="ar" dir="rtl">نبذة عن المشروع</h2>
+
+          <p class="rtl" lang="ar" dir="rtl">
+            إنّ مشروع “ممِنتو” قد وُضع رجاء أن يكون عونًا لأولي العقول التي اعتراها الوَهَن، ممن بَدَت عليهم علائم ضعف الإدراك، وظهرت فيهم أعراض مرض الزهايمر المبكر. وإذ أدركنا ما يعانون في شؤونهم اليومية، وما يكابدونه حفظًا لاستقلالهم، جاء هذا السعي بجهاز يلبسه المريض، متصلٍ بخادمٍ محليٍّ ينهض على ساق الذكاء الاصطناعي، ومعه صندوق ذكي للأدوية، وتطبيقٌ للهاتف المحمول. أما وظيفة الجهاز، فإنه يلتقط الأصوات والصور، ليكون سندًا للمريض إذا خانته ذاكرته، ثم يرسل البيانات إلى الخادم ليُخزّنها ويُعالجها محليًا، حفظا لخصوصية المريض. ويشتمل النظام على عونٍ ذكيٍّ للنشاطات الدورية كأداء الصلاة، إذ جعلت له كاميرا ثابتة تُشاهد هيئة المُصلّي، وسجادةٌ تستشعر الوقوف لتدل على بدء الصلاة. وصندوق الدواء ينبّه المريض إلى مواقيت أخذه للدواء، ويتعقّب التزامه بها. أما تطبيق الهاتف، فقد صيغ للمريض ولمن يلي أمره؛ فالمُعتني به يطّلع على أحواله في صلاته وتناول دوائه، بينما يُمكن للمريض أن يضيف ما شاء من التذكيرات، ليأتيه بها الجهاز في حينها. وحين تُسجّل الأحداث، يتخاطب المريض مع الجهاز بشكل مباشر بالأوامر الصوتية، فيأتيه رد صوتي من السماعة أو من مكبّر الصوت لمساعدته على تذكّر الأحداث الماضية. وفي الختام، فإنّ مِمِنتو مسعى جادّ، يروم التيسير على المرضى وأهليهم، ويبتغي لهم عيشًا أسهل، وحياة أهنأ.
+          </p>
+          <div class="video-embed" aria-label="Memento demo video">
+            <iframe
+              src="https://www.youtube.com/embed/CUHzbKVsuh0"
+              title="Memento Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2>Key Features</h2>
+          <div class="grid features-grid">
+            <a class="feature-card" href="features/feature-1.html">
+              <h3>Smart Organization</h3>
+              <p>AI-assisted memory categorization and retrieval system.</p>
+            </a>
+            <a class="feature-card" href="features/feature-2.html">
+              <h3>Wearable Device</h3>
+              <p>Audio and visual data capture for memory assistance.</p>
+            </a>
+            <a class="feature-card" href="features/feature-3.html">
+              <h3>Prayer Assistance</h3>
+              <p>Intelligent support for Islamic prayer routines.</p>
+            </a>
+            <a class="feature-card" href="features/feature-4.html">
+              <h3>Smart Medication</h3>
+              <p>Automated reminders and tracking for medication adherence.</p>
+            </a>
+            <a class="feature-card" href="features/feature-5.html">
+              <h3>Mobile Application</h3>
+              <p>Caregiver and patient management interface.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery and Tech Stack sections removed -->
+      
+      <section id="team" class="section alt">
+        <div class="container">
+          <h2>Team</h2>
+          <figure class="team-hero">
+            <img src="assets/all_members.JPG" alt="Memento team">
+          </figure>
+          <div class="grid team-grid">
+            <a class="team-card" href="team/member-1.html">
+              <img class="team-photo" src="assets/member1.jpg" alt="Photo of Ahmad Alshammari">
+              <h3>Ahmad Alshammari</h3>
+            </a>
+            <a class="team-card" href="team/member-2.html">
+              <img class="team-photo" src="assets/member2.jpg" alt="Photo of Fahad Alenezi">
+              <h3>Fahad Alenezi</h3>
+            </a>
+            <a class="team-card" href="team/member-3.html">
+              <img class="team-photo" src="assets/member3.jpg" alt="Photo of Hmad Naqi">
+              <h3>Hmad Naqi</h3>
+            </a>
+            <a class="team-card" href="team/member-4.html">
+              <img class="team-photo" src="assets/member4.jpg" alt="Photo of Mohammad Alabdullah">
+              <h3>Mohammad Alabdullah</h3>
+            </a>
+            <a class="team-card" href="team/member-5.html">
+              <img class="team-photo" src="assets/member5.jpg" alt="Photo of Abdullah Alotaibi">
+              <h3>Abdullah Alotaibi</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Memento. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      (function() {
+        const drawer = document.getElementById('siteDrawer');
+        const toggle = document.getElementById('drawerToggle');
+        const closeBtn = document.getElementById('drawerClose');
+        const links = drawer.querySelectorAll('a');
+
+        function openDrawer() {
+          drawer.classList.add('open');
+          drawer.setAttribute('aria-hidden', 'false');
+          toggle.setAttribute('aria-expanded', 'true');
+          document.body.classList.add('no-scroll');
+        }
+
+        function closeDrawer() {
+          drawer.classList.remove('open');
+          drawer.setAttribute('aria-hidden', 'true');
+          toggle.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('no-scroll');
+        }
+
+        toggle.addEventListener('click', () => {
+          const isOpen = drawer.classList.contains('open');
+          isOpen ? closeDrawer() : openDrawer();
+        });
+        closeBtn.addEventListener('click', closeDrawer);
+        drawer.addEventListener('click', (e) => {
+          if (e.target === drawer) closeDrawer();
+        });
+        links.forEach(l => l.addEventListener('click', closeDrawer));
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            const targetId = this.getAttribute('href');
+            if (!targetId || targetId === '#') return;
+            const el = document.querySelector(targetId);
+            if (!el) return;
+            e.preventDefault();
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        });
+      })();
+    </script>
+  </body>
+  </html>
+
+
