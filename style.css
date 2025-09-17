@@ -202,7 +202,7 @@ img {
 }
 
 .hero-logo {
-  width: 160px;
+  width: 200px;
   height: auto;
   filter: none;
 }
@@ -238,12 +238,12 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 24px;
-  border-radius: 10px;
+  padding: 18px 32px;
+  border-radius: 12px;
   text-decoration: none;
   border: 1px solid transparent;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
 
