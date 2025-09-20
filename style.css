@@ -449,6 +449,55 @@ input:focus-visible, textarea:focus-visible {
   color: var(--text-muted);
 }
 
+.video-credit {
+  font-size: 0.75rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.video-credit a {
+  color: #666;
+  text-decoration: underline;
+  font-size: inherit;
+  font-style: inherit;
+}
+
+.video-credit a:hover {
+  color: #333;
+}
+
+.source-code-link {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.source-code-link a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 32px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--primary);
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.source-code-link a:hover {
+  background: color-mix(in oklab, var(--primary), black 20%);
+}
+
+.source-code-link a:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
 @media (min-width: 768px) {
   .top-nav { display: flex; }
   #drawerToggle { display: none; }
