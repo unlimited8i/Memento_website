@@ -530,10 +530,26 @@ input:focus-visible, textarea:focus-visible {
 /* Mobile optimizations for Details rectangles */
 @media (max-width: 767px) {
   .more-rectangle {
-    width: 70px;
-    height: 32px;
-    font-size: 12px;
-    margin: 3px auto 0 auto;
+    width: 70px !important;
+    height: 32px !important;
+    font-size: 12px !important;
+    margin: 3px auto 0 auto !important;
+    background: #ffffff !important;
+    border: 2px solid #674A93 !important;
+    border-radius: 4px !important;
+    color: #674A93 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: all 0.2s ease !important;
+  }
+  
+  .more-rectangle:hover {
+    background: #674A93 !important;
+    color: #EEEFF5 !important;
+    transform: scale(1.05) !important;
   }
   
   .feature-card, .team-card {
